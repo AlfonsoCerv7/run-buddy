@@ -76,8 +76,9 @@ footer a {
 .Hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
   /* Hero Style End */
 
@@ -85,11 +86,7 @@ footer a {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
-    color: #024e76;
-    position: absolute;
-    bottom: 300px;
-    right: 140px;
+    color: #024e76; 
 }
 
 .hero-form h3 {
