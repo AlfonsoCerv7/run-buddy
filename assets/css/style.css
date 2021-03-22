@@ -337,3 +337,7 @@ section{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.steps{
+background: #fce138;
+}
