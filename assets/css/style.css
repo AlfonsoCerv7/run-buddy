@@ -71,10 +71,6 @@ header nav ul li a:hover {
   background-color: #39a6b2;  
 }
 
-.contact-form button:hover {
-  color: #fce138;
-  background: #39a6b2;
-}
 
 footer {
   background: #fce138;
@@ -347,6 +343,7 @@ section {
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
 }
 
 .contact-form button {
@@ -360,7 +357,7 @@ section {
   border-radius: 10px;
 }
 
-.contact-form input:focus, .contact-form textarea :focus{
+.contact-form input:focus, .contact-form textarea:focus {
   background-color: rgba(255,255,255, 1);
   outline: none;
 }
